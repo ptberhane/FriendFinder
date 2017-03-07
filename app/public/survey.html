@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <h2> Survey Questions</h2>
+      <hr>
+    <h3>
+        <strong> About You</strong>
+    </h3>
+    <h4> Name (required)</h4>
+    <input type="text" name id= "name" class= "form-control" required>
+    <h4> Photo Link (required)</h4>
+    <input type="text" name id= "photo" class= "form-control" required>
+      <hr>
+    <h3>
+        <strong> Question #1</strong>
+    </h3>
+    <h4> You always tend to daydream when you're bored.</h4>
+    <select data-placeholder class="chosen-select" id="ql" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q1_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #2</strong>
+    </h3>
+    <h4> You find roller coaster to be scary.</h4>
+    <select data-placeholder class="chosen-select" id="q2" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q2_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #3</strong>
+    </h3>
+    <h4> You rather nap during your free time.</h4>
+    <select data-placeholder class="chosen-select" id="q3" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q3_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #4</strong>
+    </h3>
+    <h4> You think Big Bang Theory is a great show.</h4>
+    <select data-placeholder class="chosen-select" id="q4" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q4_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #5</strong>
+    </h3>
+    <h4> You prefer to travel on a weekday than a weekend.</h4>
+    <select data-placeholder class="chosen-select" id="q5" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q5_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #6</strong>
+    </h3>
+    <h4> You prefer to commute via train than drive.</h4>
+    <select data-placeholder class="chosen-select" id="q6" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q6_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #7</strong>
+    </h3>
+    <h4> You think Facebook is great.</h4>
+    <select data-placeholder class="chosen-select" id="q7" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q7_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #8</strong>
+    </h3>
+    <h4> You think Cold Stone is better than Ben and Jerry's.</h4>
+    <select data-placeholder class="chosen-select" id="q8" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q8_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <h3>
+        <strong> Question #9</strong>
+    </h3>
+    <h4> You love spending time around people.</h4>
+    <select data-placeholder class="chosen-select" id="q9" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+    <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q9_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+
+    <h3>
+        <strong> Question #10</strong>
+    </h3>
+    <h4> You think Italian cusine is the best in the world.</h4>
+    <select data-placeholder class="chosen-select" id="ql0" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5(StronglyAgree)</option>
+    </select>
+     <div class ="chosen-container chosen-container-single" style="width:160px;" title id="q10_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+      <div>
+        <b></b>
+      </div>
+    </a>
+    <div class="chosen-drop">
+      <div class="chosen-search">
+          <input type="text" autocomplete="off">
+      </div>
+      <ul class="chosen-results">
+        <li class="active-result" data-option-array-index="1">1(Strongly Disagree)</li>
+        <li class="active-result" data-option-array-index="2">2</li>
+        <li class="active-result" data-option-array-index="3">3</li>
+        <li class="active-result" data-option-array-index="4">4</li>
+        <li class="active-result" data-option-array-index="5">5(Strongly Agree)</li>
+      </ul>
+      </div>
+
+    </div>
+
+    <br>
+    <br>
+
+              <button type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/list">API Table Link</a>  | <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+
+
+  </div>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+   
+  
+</script>
