@@ -10,7 +10,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<!-- put bakcground here -->
+<body style ="">
 
   <div class="container">
     <h2> Survey Questions</h2>
@@ -378,7 +379,7 @@
 
     <footer class="footer">
       <div class="container">
-        <p><a href="/api/list">API Table Link</a>  | <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a></p>
+        <p><a href="/api/list">API Table Link</a>  | <a href="">GitHub Repo</a></p>
       </div>
     </footer>
 
@@ -391,6 +392,35 @@
 
 
 <script type="text/javascript">
-   
+   $(".submit").on.("click", function(userInf){
+
+    var newUser = {
+      name :$("#name").val().trim(),
+      photo:$("#photo").val(),
+      question1:$("#q1").val(),
+      question2:$("#q2").val(),
+      question3:$("#q3").val(),
+      question4:$("#q4").val(),
+      question5:$("#q5").val(),
+      question6:$("#q6").val(),
+      question7:$("#q7").val(),
+      question8:$("#q8").val(),
+      question9:$("#q9").val(),
+      question10:$("#q10").val()
+
+    };
+
+    console.log(newUser);
+
+    $.post("api/api/results", newUser,
+      function(answers){
+        friendFinder();
+
+        }
+        else {
+          alert("Sorry we can't find you any friends!")
+        }
+      });
+   })
   
 </script>

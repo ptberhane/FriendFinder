@@ -1,5 +1,5 @@
 var friendsArray = [
-  { name:"Ahmed",
+  { name:"Mike",
   	photo:"",
   	scores:[4,5,3,4,3,2,3,2,1,3]
   },
@@ -17,5 +17,19 @@ var friendsArray = [
   }
 ];
 
+var match ={
+	name:"",
+	photo:"",
+	difference :500
+};
 
-module.exports = friendsArray;
+
+
+function friendFinder(){
+	for (var i = 0; i< friendsArray.length;i++) {
+		friend
+	};
+
+
+}
+
